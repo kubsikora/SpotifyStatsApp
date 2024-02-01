@@ -1,0 +1,29 @@
+body{
+    background-color: #ffffff;
+}
+
+
+.container{
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    width: 25%;
+    text-align: left;
+    padding: 40px;    
+    background-color: #fff8ff;
+    border: 2px solid #000000;
+    border-radius: 40px;
+}
+
+input.btn {
+    position: absolute;
+    top: 60%; 
+    left: 60%; 
+    background-color: #000000;
+}
+
+
+.welcomeText{
+    font-size:2em;
+}

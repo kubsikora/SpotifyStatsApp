@@ -29,8 +29,8 @@ class Serwer {
                     if (DostepneStrony.contains(obciete)) {
                         if(obciete.length()>6){
                             if (obciete.substring(0,10).equals("index.html")) {
-                                InputStream fis = new FileInputStream("SpotifyWebAPI-main\\index.html");
-                                InputStream fis2 = new FileInputStream("SpotifyWebAPI-main\\app.js");
+                                InputStream fis = new FileInputStream("website\\index.html");
+                                InputStream fis2 = new FileInputStream("website\\app.js");
                                 byte[] bufor;
                                 bufor = new byte[1024];
                                 int n = 0;
@@ -43,7 +43,7 @@ class Serwer {
                                 }
                             }
                         } else if (obciete.equals("app.js")) { // Dodaj obsługę pliku JS
-                            InputStream fis = new FileInputStream("SpotifyWebAPI-main\\app.js");
+                            InputStream fis = new FileInputStream("website\\app.js");
                             byte[] bufor;
                             bufor = new byte[1024];
                             int n = 0;
@@ -52,7 +52,7 @@ class Serwer {
                             }
                         }
                     } else {
-                        InputStream fis = new FileInputStream("SpotifyWebAPI-main\\index2.html");
+                        InputStream fis = new FileInputStream("website\\index2.html");
 
                         byte[] bufor;
                         bufor = new byte[1024];

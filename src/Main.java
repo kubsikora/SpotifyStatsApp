@@ -1,6 +1,5 @@
 import org.json.JSONArray;
 import org.json.JSONObject;
-
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.text.JTextComponent;
